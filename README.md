@@ -28,8 +28,11 @@ Deletar Alunos(DELETE): https://apigerenciamentodeensino20220703234102.azurewebs
 Requisitos:
 
 Um aluno não pode ser incluído sem uma turma-->Relacionamento 1 aluno: 1turma
+
 Uma turma só pode ser excluída se não tiverem alunos cadastrados nela-->Filtro na controller delete de Turmas verificando se a turma tem ou não alunos para que possa ser excluida.
+
 Um aluno pode ser movido de turma-->Conroller Put de Alunos.
+
 A consulta por turmas e alunos deve obedecer uma regra que é: só retornar alunos cuja condição é ativa(o)-->Filtro na controller Get de turmas para retornar somente as turmas ativas.
 
 Atenciosamente Thaís Oliveira.
