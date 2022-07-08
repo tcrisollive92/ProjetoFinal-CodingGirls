@@ -1,6 +1,7 @@
 # ProjetoFinal-CodingGirls
 
-Escopo
+Escopo:
+
 Objetivo: Desenvolver uma web API que nos permita gerenciar os alunos de uma instituição de ensino.
 Nome do banco: escola
 Tabelas existentes: aluno e turma.
@@ -9,6 +10,7 @@ Descrição do relacionamento: uma turma pode conter vários alunos, porém, um 
 Link da Web API na Azure: https://apigerenciamentodeensino20220703234102.azurewebsites.net
 
 Funcionalidades:
+
 ConsultarTodas as turmas(GET):https://apigerenciamentodeensino20220703234102.azurewebsites.net /api/Turma
 Consultar todos os Alunos(GET): https://apigerenciamentodeensino20220703234102.azurewebsites.net /api/Aluno
 
@@ -24,6 +26,7 @@ Incluir Alunos(Post):https://apigerenciamentodeensino20220703234102.azurewebsite
 Deletar Alunos(DELETE): https://apigerenciamentodeensino20220703234102.azurewebsites.net/api/Aluno/2
 
 Requisitos:
+
 Um aluno não pode ser incluído sem uma turma-->Relacionamento 1 aluno: 1turma
 Uma turma só pode ser excluída se não tiverem alunos cadastrados nela-->Filtro na controller delete de Turmas verificando se a turma tem ou não alunos para que possa ser excluida.
 Um aluno pode ser movido de turma-->Conroller Put de Alunos.
